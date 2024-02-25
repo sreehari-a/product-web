@@ -25,7 +25,7 @@ export type ProductResponse = {
 };
 
 // const hostname = 'http://localhost:3000'; //Local Environment
-const hostname= `https://products-db-sample.herokuapp.com`; // Production environment
+const hostname= `https://products-backend-37nt.onrender.com`; // Production environment
 
 @Injectable()
 export class DataStorageService {
